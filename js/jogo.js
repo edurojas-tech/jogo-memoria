@@ -79,12 +79,12 @@ $(document).ready(()=>{
                         allCards.forEach(element => {
                             element.classList.remove("semCliqueContinuar", "test1", "test2")
                         });
-                    }, 2000);
+                    }, 300);
                     setTimeout(() => {
                         $(".elementoVirado1").removeClass("elementoVirado1")
                         $(".elementoVirado2").removeClass("elementoVirado2")
                         contagemCliques = 0
-                    }, 2500);
+                    }, 600);
                 }
                
             }
